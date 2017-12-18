@@ -13,7 +13,6 @@ module Nameless
 
     production(:arglist_types) do
       clause(:TK_IDENTIFIER) { |t| t }
-      clause(:TK_NUMBER) { |t| t }
     end
 
     production(:types) do
